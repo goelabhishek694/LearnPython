@@ -57,3 +57,11 @@ add(3)
 default_y=4
 add(5)
 # it did not update the value of y parameter in function add to 4.
+
+#returning values via function
+
+def add(x,y):
+    return x+y
+
+result =add(4,5)
+print(result)
