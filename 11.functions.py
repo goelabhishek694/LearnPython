@@ -40,3 +40,20 @@ say_hello(surname="Nobita", name="Nobi")
 
 #positional arguments go first then keyword arguments can plced
 say_hello("Nobi" , surname="Nobita")
+
+#default paramter values in python
+def add(x,y=8):
+    print(x+y)
+
+add(5)
+#default paramters value must go at the end not in the begining
+
+default_y=3
+def add(x,y=default_y):
+    sum=x+y
+    print(sum)
+
+add(3)
+default_y=4
+add(5)
+# it did not update the value of y parameter in function add to 4.
