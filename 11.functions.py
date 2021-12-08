@@ -19,3 +19,24 @@ def add_friends():
 
 add_friends()
 
+# x,y are called parameters
+def add(x,y):
+    pass #it means do nothing
+    result=x+y
+    print(result)
+
+#arguments
+add(4,6)
+
+def say_hello(name,surname):
+    print(f"hello,{name} {surname}")
+
+say_hello("Nobita", "Nobi")
+#nobita and nobi are known as positional arguments because they are mapped respectively to name and surname 
+
+#keyword or named arguments
+
+say_hello(surname="Nobita", name="Nobi")
+
+#positional arguments go first then keyword arguments can plced
+say_hello("Nobi" , surname="Nobita")
