@@ -16,7 +16,7 @@ nums=[2,5]
 print(add(*nums))
 
 nums={"x":15,"y":45}
-#this format is equal to x=nums["x"], y=nums["y"]
+#this format is equal to x=nums["x"], y=nums["y"], unpacking
 print(add(**nums))
 
 #this is a special syntax, means collect althe positional arguments in this tuple args and also creatte a named argument in the last
